@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    font-size: 1rem;
+}
+
+article {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+a {
+    text-emphasis: none;
+    color: rgb(252, 227, 5);
+}
+
+a:hover {
+    text-decoration: none;
+    text-emphasis: none;
+    color: rgb(255, 255, 255);
+}
+
+.h4s {
+    background-color: rgba(255, 248, 220, 0.555);
+    border-radius: 10px;
+    padding: 1px;
+    color: rgb(63, 53, 53);
+}
+
+.Sectores {
+    border-end-end-radius: 30px;
+    background-color: rgb(29, 27, 27);
+}
+
+.transp {
+    background-color: rgba(0, 0, 0, 0.705);
+}
+
+.c {
+    color: rgb(15, 115, 155);
+    text-decoration: none;
+}
+
+#header {
+    background-color: rgba(14, 9, 9, 0.801);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0px;
+}
