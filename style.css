@@ -39,10 +39,20 @@ a:hover {
     background-color: rgb(29, 27, 27);
 }
 
+.ctn-data {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
 #header {
     background-color: rgba(14, 9, 9, 0.801);
     position: fixed;
     width: 100%;
     z-index: 1000;
     top: 0px;
+}
+
+.local {
+    width: 100%;
+    align-items: center;
 }
